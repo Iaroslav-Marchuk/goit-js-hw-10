@@ -1,0 +1,94 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+.form > label {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+input[name='delay'] {
+  outline: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+input[name='delay']:hover {
+  border-color: #000;
+}
+
+input[name='delay']:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  outline: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 360px;
+  padding: 8px 48px;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+fieldset:hover {
+  border-color: #000;
+}
+
+legend {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset label {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+button {
+  background: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
